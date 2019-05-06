@@ -14,9 +14,9 @@ import com.rabbitmq.client.ConnectionFactory;
  */
 public class ConnectionUtil {
 
-    private static final String HOST = "10.0.105.4";
+    private static final String HOST = "10.0.101.44";
     private static final int PORT = 5672;
-    private static final String USERNAME = "messageAdmin";
+    private static final String USERNAME = "lj";
     private static final String PASSWORD = "yk@1234";
 
     public static Connection getConnection() throws Exception {
